@@ -1,0 +1,11 @@
+python main.py \
+  --train_root=/path/to/training_set_feat \
+  --train_labels=/path/to/training_labels.json \
+  --validation_root=/path/to/val_set_feat \
+  --validation_labels=/path/to/val_labels.json \
+  --num_classes=18 \
+  --batch_size=32 \
+  --default_root_dir=results \
+  --learning_rate=0.1 \
+  --max_epochs=35 \
+  --gpus=1 \
